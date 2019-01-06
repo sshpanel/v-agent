@@ -1,6 +1,11 @@
 #!/usr/bin/php 
 <?php 
 
+// change the working directory
+define('WD', sprintf('%s/%s', $_SERVER['HOME'], 'v-agent'));
+
+chdir(realpath(WD));
+
 require __DIR__  . '/vendor/autoload.php';
 
 use Dotenv\Dotenv;
