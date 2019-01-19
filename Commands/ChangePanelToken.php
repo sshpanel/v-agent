@@ -13,7 +13,7 @@ class ChangePanelToken extends Command {
      * 
      * @var string
      */
-    protected static $defaultName = 'app:env:change-panel-token';
+    protected static $defaultName = 'change-panel-token';
 
     /**
      * Configure

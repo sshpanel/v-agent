@@ -13,7 +13,7 @@ class ChangePanelUrl extends Command {
      * 
      * @var string
      */
-    protected static $defaultName = 'app:env:change-panel-url';
+    protected static $defaultName = 'change-panel-url';
 
     /**
      * Configure
